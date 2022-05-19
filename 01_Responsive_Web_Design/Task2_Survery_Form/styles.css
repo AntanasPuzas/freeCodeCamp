@@ -1,0 +1,114 @@
+:root {
+  --border-style: solid;
+  --border-radius: 50px;
+  --border-color: black;
+  --border-width: 0.2rem;
+}
+
+body {
+  height: 100%;
+  width: 98%;
+  font-family: "Roboto";
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/547/786/original/memphis-seamless-pattern-colorful-geometric-seamless-pattern-different-shapes-fashion-80-s-90-s-style-vector-illustration.jpg");
+  background-size: 20rem;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.container {
+  background-color: "transparent";
+  height: 100%;
+  width: 80%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 auto 0 auto;
+  max-width: 60rem;
+}
+
+.header {
+  background: rgb(255, 225, 73);
+  border-style: var(--border-style);
+  border-radius: var(--border-radius);
+  border-color: var(--border-color);
+  border-width: var(--border-width);
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  box-shadow: 0.35rem 0.35rem;
+}
+
+.formGroup {
+  background: rgb(250, 145, 171);
+  border-style: var(--border-style);
+  border-radius: var(--border-radius);
+  border-color: var(--border-color);
+  border-width: var(--border-width);
+  margin: 0 auto 1rem auto;
+  padding: 0.5rem 3.5rem 1rem 1.5rem;
+  box-shadow: 0.35rem 0.35rem;
+}
+
+.formControl {
+  border-style: var(--border-style);
+  border-radius: var(--border-radius);
+  border-color: var(--border-color);
+  border-width: var(--border-width);
+  padding-left: 1rem;
+  padding-right: 0.7rem;
+  width: 100%;
+  height: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}
+
+.dropdownGroup {
+  padding-right: 1.5rem;
+}
+
+.dropdownControl {
+  height: 1.9rem;
+}
+
+.inputTextarea {
+  border-style: var(--border-style);
+  border-radius: 0.6rem;
+  border-color: var(--border-color);
+  border-width: var(--border-width);
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0.7rem 0.7rem 0.7rem 1rem;
+  min-height: 5rem;
+}
+
+.submitButton {
+  background: rgb(255, 225, 73);
+  border-style: var(--border-style);
+  border-radius: var(--border-radius);
+  border-color: var(--border-color);
+  border-width: var(--border-width);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0.35rem 0.35rem;
+}

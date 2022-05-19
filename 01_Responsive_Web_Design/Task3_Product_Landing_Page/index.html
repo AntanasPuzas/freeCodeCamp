@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Product Landing Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="flex-container">
+    <header class="header" id="header">
+      <img id="header-img" class="header-logo" src="https://raw.githubusercontent.com/AntanasPuzas/freeCodeCamp/811d369b6d39d5fc822ae1b1558d714a66ceb330/Responsive_Web_Design/Task3_Product_Landing_Page/images/cube_logo.svg">
+      <nav id="nav-bar" class="nav-bar">
+        <ul id="links-list" class="links-list">
+          <li><a id="link1" class="nav-link" href="#main-title">MAIN TITLE</a></li>
+          <li><a id="link2" class="nav-link" href="#product-description-title">THE PRODUCT</a></li>
+          <li><a id="link3" class="nav-link" href="#how-it-works-title">HOW IT WORKS</a></li>
+        </ul>
+      </nav>
+      <div id="header-spacer" class="header-spacer"></div>
+    </header>
+    <main class="main">
+      <div class="main-container">
+        <h1 id="main-title" class="main-title">Main title</h1>
+        <p id="main-title-description" class="main-title-description">
+          Aute fugiat multos noster eram duis
+          <br>fugiat ipsum labore minim amet labore dolore dolor
+          <br>sint amet anim anim dolore velit
+        </p>
+      </div>
+      <iframe id="video" class="video" src="https://www.youtube-nocookie.com/embed/k07xnCPRs78"></iframe>
+      <div class="main-container">
+        <h2 id="product-description-title" class="product-description-title">THE PRODUCT</h2>
+        <p id="description" class="description">
+          Dolore minim multos velit quem aute dolore esse minim
+          <br>amet amet noster tempor irure anim sunt quem legam
+          <br>export malis veniam fugiat aliqua esse quis dolore minim enim
+        </p>
+        <img id="product-features-image" class="product-features-image" src="https://raw.githubusercontent.com/AntanasPuzas/freeCodeCamp/811d369b6d39d5fc822ae1b1558d714a66ceb330/Responsive_Web_Design/Task3_Product_Landing_Page/images/cube_full.svg">
+      </div>
+      <div class="main-container how-it-works">
+        <h2 id="how-it-works-title" class="how-it-works-title">How it works</h2>
+        <p id="how-it-works-description" class="how-it-works-description">
+          Veniam quis quid anim cillum nisi cillum summis
+          <br>fore aute malis eram minim nulla fore noster quid
+          <br>quae irure aute cillum quid illum illum quem malis multos duis sint
+        </p>
+        <div class="how-it-works-container">
+          <div class="how-it-works-group">
+            <img class="how-it-works-image" src="https://raw.githubusercontent.com/AntanasPuzas/freeCodeCamp/811d369b6d39d5fc822ae1b1558d714a66ceb330/Responsive_Web_Design/Task3_Product_Landing_Page/images/cube_left.svg">
+            <h3 class="how-it-works-group-title">Feature</h3>
+            <p class="how-it-works-group-description">
+              Magna cillum nulla aute noster minim
+              <br>cillum illum sint veniam legam legam quorum
+            </p>
+          </div>
+          <img class="how-it-works-arrow" src="https://raw.githubusercontent.com/AntanasPuzas/freeCodeCamp/811d369b6d39d5fc822ae1b1558d714a66ceb330/Responsive_Web_Design/Task3_Product_Landing_Page/images/arrow.svg">
+          <div class="how-it-works-group">
+            <img class="how-it-works-image" src="https://raw.githubusercontent.com/AntanasPuzas/freeCodeCamp/811d369b6d39d5fc822ae1b1558d714a66ceb330/Responsive_Web_Design/Task3_Product_Landing_Page/images/cube_top.svg">
+            <h3 class="how-it-works-group-title">Feature</h3>
+            <p class="how-it-works-group-description">
+              Labore magna cillum magna noster magna
+              <br>enim noster culpa irure minim fore summis
+            </p>
+          </div>
+          <img class="how-it-works-arrow" src="https://raw.githubusercontent.com/AntanasPuzas/freeCodeCamp/811d369b6d39d5fc822ae1b1558d714a66ceb330/Responsive_Web_Design/Task3_Product_Landing_Page/images/arrow.svg">
+          <div class="how-it-works-group">
+            <img class="how-it-works-image" src="https://raw.githubusercontent.com/AntanasPuzas/freeCodeCamp/811d369b6d39d5fc822ae1b1558d714a66ceb330/Responsive_Web_Design/Task3_Product_Landing_Page/images/cube_right.svg">
+            <h3 class="how-it-works-group-title">Feature</h3>
+            <p class="how-it-works-group-description">
+              Anim aliqua veniam ipsum tamen
+              <br>irure illum aliqua irure aliqua sint illum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main-container">
+        <form id="form" class="form-group" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-control">
+            <label for="email">Subscribe to our service!</label><br>
+            <input type="email" id="email" class="email-form" name="email" placeholder="Enter your email"><br>
+            <input type="submit" id="submit" class="submit" value="Submit!" form="email"></input>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer id="footer" class="footer">
+      <p id="copyright" class="copyright">&copy;Product.com</p>
+      <ul id="terms-list" class="terms-list">
+        <li><a id="privacy" class="terms-links" href="#">Privacy</a></li>
+        <li><a id="terms" class="terms-links" href="#">Terms</a></li>
+        <li><a id="terms" class="terms-links" href="#">Contact</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
