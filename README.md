@@ -1,2 +1,2 @@
 # freeCodeCamp
-freeCodeCamp project files
+Personal freeCodeCamp project files
